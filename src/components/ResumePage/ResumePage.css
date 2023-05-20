@@ -1,0 +1,73 @@
+.page-background {
+    background-color: #ccf5f5;
+    padding: 20px;
+    color:  #212518;
+  }
+  
+  .resume-container {
+    background-color: #c1d8c0;
+    border: 2px solid #212518;
+    padding: 20px;
+  }
+  
+
+
+  .education-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25vw; 
+    margin-right: auto;
+  }
+  
+  .portfolio-picture {
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 90px;
+    border: 2px solid #212518;
+  }
+  
+  .skills-container ul,
+  .experience-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;    
+  }
+
+  
+  .work-container ul {
+    margin-top: 10px;
+  }
+  
+  .work-container li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width:900px)
+  {
+    .education-container {
+        flex-direction: column;
+        margin: 0px;
+      }
+    
+      .education-container-text,
+      .portfolio-picture {
+        flex-basis: 100%;
+      }
+  }
+
+  .bolded{
+    font-weight: bold;
+    font-size: 150%;
+  }
+
+  .italics{
+    font-style: italic;
+    font-size: 115%;
+  }
+  
+li{
+    font-size: 110%
+}
+
+
+  

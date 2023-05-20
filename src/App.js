@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './components/HomePage/HomePage';
-import ResumePage from './components/ResumePage';
-import PortfolioPage from './components/PortfolioPage';
+import ResumePage from './components/ResumePage/ResumePage';
+import PortfolioPage from './components/PortfolioPage/PortfolioPage';
 
 function App() {
   const [activePage, setActivePage] = useState('home');
