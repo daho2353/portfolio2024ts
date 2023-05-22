@@ -1,0 +1,27 @@
+img{
+    max-width: 680px;
+}
+
+.portfolio {
+    margin-bottom: 20px;
+  }
+  
+  .portfolio h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .portfolio-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .portfolio .image-container {
+    margin-right: 20px;
+  }
+  
+  .portfolio .description {
+    flex-grow: 1;
+  }
+  
