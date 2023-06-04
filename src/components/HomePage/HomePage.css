@@ -1,5 +1,6 @@
 .profile-picture {
   border-radius: 50%; /* This makes the image appear as an oval shape */
+  margin-top: 40px;
 }
 
 .homepage-container{

@@ -17,7 +17,7 @@ const PortfolioPage = () => {
     <div className='portfolio-container'>
       <div className='portfolio'>
             <h1>Portfolio</h1>
-            <p> I have always had a passion for learning new things and for creating novel projects. I have dabbled in many forms of media creation however I specialize in web development. Below are some of the projects which showcase my skills as an engineer, a thinker, and as a developer. </p>
+            <p id = "portfolio-description"> I have always had a passion for learning new things and for creating novel projects. I have dabbled in many forms of media creation however I specialize in web development. Below are some of the projects which showcase my skills as an engineer, a thinker, and as a developer. </p>
             <Portfolio
               header="My Old Portfolio"
               imageName={oldPortfolio}
