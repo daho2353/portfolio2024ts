@@ -1,15 +1,17 @@
 import React from 'react';
 import portfolioPicture from '../../img/portfolio.png';
+import skillsPicture from '../../img/skills.png'
 import './ResumePage.css'
 
 const ResumePage = () => {
   return (
     <div className="page-background">
-      <a href={require('../../img/resume2023.pdf')} download>Download PDF</a>
       <div className="resume-container">
-        <h2> Education </h2>
+      <a href={require('../../img/resume2023.pdf')} download>Download PDF</a>
+        <h2> Resume </h2>
         <div className="education-container">
           <div className="education-container-text">
+            <h2> Education </h2>
             <p> Graduated from University of Colorado Boulder in the class of 2020 with a Bachelors of Science degree </p>
             <ul>
               <li> Major: Technology, Arts & Media (Now called creative technology and design) </li>
@@ -19,30 +21,32 @@ const ResumePage = () => {
           <img className="portfolio-picture" src={portfolioPicture} alt="portfolio picture"/>
         </div>
         <div className="skills-container">
-          <h2> Relevant Skills: </h2>
-          <h3> Front end tools</h3> 
-            <ul>
-              <li> HTMl/CSS/SCSS</li>
-              <li> Javascript </li>
-              <li> React </li>
-              <li> JQuery </li>
-            </ul>      
-          <h3> Programming Languages</h3> 
-            <ul>
-              <li> Python </li>
-              <li> C++/C#</li>
-              <li> Ruby, lua, SQL</li>
-            </ul> 
-          <h3>Tools and Technology</h3> 
-            <ul>
-              <li> Git/Github </li>
-              <li> Agile/Scrum Methodolgy</li>
-              <li> Adobe creative suite</li>
-              <li> Firebase </li>
-              <li> Gulp/SASS and CSS Frameworks </li>
-              <li> API's & Libraries </li>
-            </ul>
-
+          <img className="skills-picture" src={skillsPicture} alt ="skills picture"/>
+          <div className="skills-container-text">
+            <h2> Relevant Skills: </h2>
+            <h3> Front end tools</h3> 
+              <ul>
+                <li> HTMl/CSS/SCSS</li>
+                <li> Javascript </li>
+                <li> React </li>
+                <li> JQuery </li>
+              </ul>      
+            <h3> Programming Languages</h3> 
+              <ul>
+                <li> Python </li>
+                <li> C++/C#</li>
+                <li> Ruby, lua, SQL</li>
+              </ul> 
+            <h3>Tools and Technology</h3> 
+              <ul>
+                <li> Git/Github </li>
+                <li> Agile/Scrum Methodolgy</li>
+                <li> Adobe creative suite</li>
+                <li> Firebase </li>
+                <li> Gulp/SASS and CSS Frameworks </li>
+                <li> API's & Libraries </li>
+              </ul>
+          </div>
         </div>
         <div className="experience-container">
           <div className="work-container">

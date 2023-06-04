@@ -18,11 +18,12 @@ const PortfolioPage = () => {
       <div className='portfolio'>
             <h1>Portfolio</h1>
             <p id = "portfolio-description"> I have always had a passion for learning new things and for creating novel projects. I have dabbled in many forms of media creation however I specialize in web development. Below are some of the projects which showcase my skills as an engineer, a thinker, and as a developer. </p>
+            <div className='portfolio-contents'>
             <Portfolio
               header="My Old Portfolio"
               imageName={oldPortfolio}
               imagePlacement="left"
-              description="This is my previous home page which is currently depracated, however it is one of the only live websites I currently have so I figure I would leave it up to demonstrate my ability to build portfolio's in traditional HTML and JS as well. Unfortunately most of the links in the portfolio are depractated however I will rebuild thier functionality into this portfolio!."
+              description="This is my previous home page which is currently depracated, however it is one of the only live websites I currently have so I figure I would leave it up to demonstrate my ability to build portfolio's in traditional HTML and JS as well. Unfortunately most of the links in the portfolio are depractated however I will rebuild thier functionality into this portfolio."
               link="https://daho2353.github.io/Project2/portfolio"
             />
             <Portfolio
@@ -88,6 +89,7 @@ const PortfolioPage = () => {
               description="I created two games in the Bitsy - Tiny Games builder as well as a Unity shoot em up staring my favorite animal the manatee, Linked above is my itch.io page which includes all of these games."
               link="https://imgumi.itch.io/"
             />
+            </div>
           </div>
     </div>
     

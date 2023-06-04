@@ -16,7 +16,7 @@ const Portfolio = ({ header, imageName, imagePlacement, description, link }) => 
           </div>
         )}
         <div className="description-container">
-          <h2> {header} </h2>
+          <h2 className='portfolio-header'> {header} </h2>
           <div className="description">{description}</div>
         </div>
         {imagePlacement === 'right' && link !== 'none' && (
