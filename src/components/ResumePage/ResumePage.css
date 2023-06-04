@@ -1,4 +1,4 @@
-.page-background {
+.resume-background {
     background-color: #ccf5f5;
     padding: 20px;
     color:  #212518;
@@ -9,8 +9,9 @@
     border: 2px solid #212518;
     padding: 20px;
   }
-  
-
+.resume-headers{
+  color: #212518;
+}
 
   .education-container {
     display: flex;

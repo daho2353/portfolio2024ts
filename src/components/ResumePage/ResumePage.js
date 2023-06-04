@@ -5,13 +5,13 @@ import './ResumePage.css'
 
 const ResumePage = () => {
   return (
-    <div className="page-background">
+    <div className="resume-background">
       <div className="resume-container">
       <a href={require('../../img/resume2023.pdf')} download>Download PDF</a>
         <h2> Resume </h2>
         <div className="education-container">
           <div className="education-container-text">
-            <h2> Education </h2>
+            <h2 className='resume-headers'> Education </h2>
             <p> Graduated from University of Colorado Boulder in the class of 2020 with a Bachelors of Science degree </p>
             <ul>
               <li> Major: Technology, Arts & Media (Now called creative technology and design) </li>
@@ -23,7 +23,7 @@ const ResumePage = () => {
         <div className="skills-container">
           <img className="skills-picture" src={skillsPicture} alt ="skills picture"/>
           <div className="skills-container-text">
-            <h2> Relevant Skills: </h2>
+            <h2 className='resume-headers'> Relevant Skills: </h2>
             <h3> Front end tools</h3> 
               <ul>
                 <li> HTMl/CSS/SCSS</li>
@@ -31,13 +31,13 @@ const ResumePage = () => {
                 <li> React </li>
                 <li> JQuery </li>
               </ul>      
-            <h3> Programming Languages</h3> 
+            <h3 className='resume-headers'> Programming Languages</h3> 
               <ul>
                 <li> Python </li>
                 <li> C++/C#</li>
                 <li> Ruby, lua, SQL</li>
               </ul> 
-            <h3>Tools and Technology</h3> 
+            <h3 className='resume-headers'>Tools and Technology</h3> 
               <ul>
                 <li> Git/Github </li>
                 <li> Agile/Scrum Methodolgy</li>
@@ -50,7 +50,7 @@ const ResumePage = () => {
         </div>
         <div className="experience-container">
           <div className="work-container">
-            <h2> Work Experience </h2>
+            <h2 className='resume-headers'> Work Experience </h2>
             <ul>
               <li className='bolded'> Zayo - Network Technician II & III</li>
               <li className='italics'> Remote (Denver, CO) Oct 2021 - Dec 2022 </li>

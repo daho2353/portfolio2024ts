@@ -5,6 +5,7 @@ import emailIcon from '../../img/email.png';
 import gitIcon from '../../img/giticon.png';
 import linkedInIcon from '../../img/linkedin.png';
 import gitIconHoveredSrc from '../../img/giticondark.png';
+import backgroundImage from '../../img/background.png';
 import linkedInIconHoveredSrc from'../../img/linkedindark.png';
 import './HomePage.css';
 
@@ -20,12 +21,15 @@ const HomePage = () => {
     setLinkedInIconHovered(!linkedInIconHovered);
   };
   return (
-    <div className="homepage-container">
-        <img className="profile-picture" src={profilePicture} alt="profile picture"/>
-        <h2> Damian Howard </h2>
+    <div className='background-container'>
+      <div className='page-background'></div>
+      <img className="profile-picture" src={profilePicture} alt="profile picture"/>
+      <h2> Damian Howard </h2>
+      <h3> Front-End Web Developer </h3>
+      <div className="homepage-container">
         <div className="about-me">
           <h3> About Me </h3>
-          <p> My name is Damian Howard. I am graduate from the University of Colorado Boulder and have a passion for creating functional and aesthetically pleasing websites. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I hope to one day work on front-end development projects where I can put both my creative and technical skills to work. </p>
+          <p> My name is Damian Howard. I am graduate from the University of Colorado Boulder and have a passion for creating functional and aesthetically pleasing websites. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a deep web development and graphic design background and hope to use my skillset to help you build your dream website. </p>
         </div>
         <h4> Contact Me </h4>
         <div className="contact-information">
@@ -50,6 +54,8 @@ const HomePage = () => {
           </div>
         </div>
     </div>
+    </div>
+    
   );
 };
 
