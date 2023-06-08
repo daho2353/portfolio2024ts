@@ -29,7 +29,7 @@ const HomePage = () => {
       <div className="homepage-container">
         <div className="about-me">
           <h3> About Me </h3>
-          <p> My name is Damian Howard. I am graduate from the University of Colorado Boulder and have a passion for creating functional and aesthetically pleasing websites. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a deep web development and graphic design background and hope to use my skillset to help you build your dream website. </p>
+          <p> My name is Damian Howard. I am a graduate from the University of Colorado Boulder and have a passion for creating functional and aesthetically pleasing websites. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a deep background in web development and graphic design. I hope to use my skillset to help you build your dream website. </p>
         </div>
         <h4> Contact Me </h4>
         <div className="contact-information">

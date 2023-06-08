@@ -1,6 +1,6 @@
 .profile-picture {
   border-radius: 50%; /* This makes the image appear as an oval shape */
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .homepage-container{
@@ -10,7 +10,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 260px;
+    padding-bottom: 20px;
 }
 
 .homepage-container img{
@@ -114,17 +115,20 @@ p {
     display:flex;
     flex-direction:column;
     align-items: center;
+    width: 105px;
+    height: 250px;
+    gap: 70px;
 }
 .git-icon{
     max-width: 100px;
     margin-bottom:10px;
+    margin-left: -25px;
 }
 
 .linked-in-icon{
     max-width: 100px;
-    margin-bottom:10px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-bottom:25px;
+    margin-left:-25px;
 }
 
 .page-background {

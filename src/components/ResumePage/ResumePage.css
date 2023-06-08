@@ -1,53 +1,37 @@
 .resume-background {
     background-color: #ccf5f5;
-    padding: 20px;
     color:  #212518;
   }
   
   .resume-container {
+    max-width: 80vw;
+    margin-left: 10vw;
     background-color: #c1d8c0;
-    border: 2px solid #212518;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
   }
-.resume-headers{
+
+.resume-header{
   color: #212518;
 }
 
-  .education-container {
-    display: flex;
-    align-items: center;
-    margin-left: 25vw; 
-    margin-right: auto;
-  }
-
-  .skills-container{
-    display: flex;
-    align-items: center;
-  }
-  
-  .education-container-text ul{
-    list-style-type: none ;
-  }
-  .portfolio-picture {
-    width: 480px;
-    margin-right: 20px;
-    margin-left: 90px;
-    border: 2px solid #212518;
-  }
-
-  .skills-picture{
-    width: 480px;
-    border: 2px solid #212518;
-  }
-  
-  .skills-container ul,
   .experience-container ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;    
   }
 
-  
+  a{
+    height: 50px;
+    width: 50px;
+  }
+
+  .pdf-icon{
+    height: 50px;
+    width: 50px;
+  }
   .work-container ul {
     margin-top: 10px;
   }
@@ -56,18 +40,6 @@
     margin-bottom: 10px;
   }
   
-  @media (max-width:900px)
-  {
-    .education-container {
-        flex-direction: column;
-        margin: 0px;
-      }
-    
-      .education-container-text,
-      .portfolio-picture {
-        flex-basis: 100%;
-      }
-  }
 
   .bolded{
     font-weight: bold;
@@ -83,5 +55,35 @@ li{
     font-size: 110%
 }
 
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  
+.education-skills-container {
+  display: flex;
+  gap: 20px; /* Adds a 10px gap between the tiles */
+  flex-wrap: wrap; /* Allows the tiles to wrap to a new line if there's not enough space */
+  justify-content: center; /* Centers the tiles horizontally */
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 780px){
+  .skills-component{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+  }
+  #skills-header{
+    margin-top: -230px;
+    margin-bottom: 280px;
+  }
+  .experience-container{
+    margin-top: -220px;
+  }
+}
+
+
+
+
