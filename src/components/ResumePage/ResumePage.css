@@ -69,6 +69,11 @@ li{
   margin-top: 15px;
 }
 
+.experience-container{
+  margin-bottom: 50px;
+  max-width: 1200px;
+}
+
 @media screen and (max-width: 780px){
   .skills-component{
     margin-top: 150px;
@@ -80,7 +85,7 @@ li{
     margin-bottom: 280px;
   }
   .experience-container{
-    margin-top: -220px;
+    margin-top: -200px;
   }
 }
 

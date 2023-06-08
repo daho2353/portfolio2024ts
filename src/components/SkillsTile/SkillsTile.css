@@ -64,9 +64,15 @@
     .skill-header{
         margin-top: 0px;
         font-size: 100%;
+        color: black;
     }
 
     .skills-back ul{
+        color: black;
         font-size: 80%;
+    }
+
+    .skills-back{
+        background-color: #c1d8c0;
     }
   }
