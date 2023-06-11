@@ -15,6 +15,7 @@ const EducationTile = () => {
       onClick={handleFlip}
     >
       <div className='education-front'>
+      <div className='blur'></div>
       </div>
       <div className='education-back'>
         <h1 className='university-name'> University of Colorado Boulder</h1>

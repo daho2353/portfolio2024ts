@@ -13,7 +13,9 @@ const SkillsTile = () => {
       className={`skills-container ${isFlipped ? 'flipped' : ''}`}
       onClick={handleFlip}
     >
-      <div className='skills-front'></div>
+      <div className='skills-front'>
+      <div className='blur'></div>
+      </div>
       <div className='skills-back'>
         <h3 className='skill-header'> Front end tools</h3> 
             <ul>
