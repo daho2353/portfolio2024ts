@@ -144,3 +144,13 @@ p {
     z-index: -1;
   }
 
+  @media (max-width:650px)
+  {
+    p{
+        font-size:80%
+    }
+    .about-me{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
