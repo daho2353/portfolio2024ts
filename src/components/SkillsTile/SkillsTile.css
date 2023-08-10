@@ -62,8 +62,7 @@
   @media screen and (max-width: 780px) {
     .skills-container {
         width: 70vw;
-        height: auto;
-        padding-bottom: 70vw;
+        height: 450px
     }
 
     .skill-header{
