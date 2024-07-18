@@ -15,25 +15,54 @@ const ResumePage = () => {
             <h2 className="resume-header"> Education </h2>
             <EducationTile />
           </div>
-          <div className='skills-component'>
-            <h2 className="resume-header" id="skills-header"> Skills </h2>
-            <SkillsTile />
-          </div>
         </div>
-
+        <h2 className="resume-header" id="skills-header"> Skills </h2>
+        <div className='skills-component'> 
+            <div className="skills-column-1">
+              <ul>
+                <li> Cisco </li>
+                <li> Juniper </li>
+                <li> Fortinet </li>
+                <li> Ciena </li>
+                <li> Nokia </li>
+              </ul> 
+            </div>
+            <div className="skills-column-2">
+            <ul>
+                <li> Graphic Design, Video Editing</li>
+                <li> Front End Web Development </li>
+                <li> Fiber Break Triage and Repair  </li>
+                <li> Layer 1, IP & Ethernet, Transport & Fiber </li>
+                <li> Command Line and GUI Troubleshooting </li>
+              </ul> 
+            </div>
+            <div className="skills-column-3">
+            <ul>
+                <li> Remote Troubleshooting </li>
+                <li> Helpdesk Administration </li>
+                <li> Network Support </li>
+                <li> OTDR testing, </li>
+                <li> Root Cause Analysis </li>
+              </ul> 
+            </div>
+        </div>
         <div className="experience-container">
           <div className="work-container">
             <h2 className='resume-header'> Work Experience </h2>
             <ul>
+              <li className='bolded'> United States Postal Service - PSE Clerk </li>
+              <li className='italics'> Scappoose, Oregon Jan 2024 - Current </li>
+              <li> Opened the store each morning without supervision and enhanced customer satisfaction by efficiently sorting, routing, and distributing 1000’s of pieces of mail to appropriate P.O. boxes and route stations within the post office each day.</li>
               <li className='bolded'> Zayo - Network Technician II & III</li>
               <li className='italics'> Remote (Denver, CO) Oct 2021 - Dec 2022 </li>
-              <li> Diagnosed, repaired, and anaylzed problems within the Zayo network. Worked on novel IP and fiber issues and repaired issues on the fly in a fast paced work environment. I worked directly with customers and technicians in a ticket environment. </li>
+              <li> Improved network reliability for fortune 500 companies by diagnosing, repairing, and analyzing problems within the Zayo network. Repaired numerous IP and Fiber issues on the fly daily in a fast paced work environment. Worked directly with customers and technicians in a remote ticket environment. </li>
               <li className='bolded'> GTT - Network Analyst </li>
               <li className='italics'> Remote (Denver, CO) Nov 2020 - Oct 2021 </li>
-              <li> Received inbound calls from customers reporting issues within GTT Network, I would then Diagnose the issue and perform layer 1 troubleshooting with the customers. </li>
+              <li> Received inbound calls from customers reporting issues within GTT network. Resolved various connectivity issues for end-users through layer 1 troubleshooting or escalating the issue for outages and equipment failures. </li>
               <li className='bolded'> CU Boulder, Office of Information Technology, Distance Learning Services - Student Manager</li>
               <li className='italics'> Boulder, Colorado July 2018 - Apr 2020</li>
-              <li> Assisted Distance Learning Services with recording lectures all over CU campus. I was also in charge of the other student assistants schedules and tickets. I also got the opportunity to do hardware and software troubleshooting and installations as well as small coding projects. </li>
+              <li> Scheduled, monitored, and performed troubleshooting for recorded lectures all over campus. Trained the other student assistants and managed their schedules. Performed hardware and software installations and completed coding projects.
+              </li>
               <li className='bolded'> Good Times, Ross, World Market - General Staff </li>
               <li className='italics'> Colorado Sept 2015 - July 2018 </li>
             </ul>

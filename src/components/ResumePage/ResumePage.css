@@ -74,8 +74,59 @@ li{
   max-width: 1200px;
 }
 
+.skills-component {
+  display: flex;
+  justify-content: space-between;
+}
 
+.skills-column {
+  flex: 1;
+  margin: 70px;
+  
+}
 
+.skills-column-1{
+  margin-left: 170px;
+  font-weight: bold;
+}
 
+.skills-column-2{
+  font-weight: bold; 
+  padding-right: 76px;
+  padding-left: 76px;
+}
+
+.skills-column-3{
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (max-width: 1220px) {
+  .skills-component {
+    flex-direction: column;
+  }
+
+  .skills-column-1{
+    margin-left: 0px;
+    font-weight: bold;
+  }
+  
+  .skills-column-2{
+    font-weight: bold; 
+    padding-right: 76px;
+    padding-left: 76px;
+  }
+  
+  .skills-column-3{
+    font-weight: bold;
+    margin-right: 0px;
+  }
+  
+}
 
 

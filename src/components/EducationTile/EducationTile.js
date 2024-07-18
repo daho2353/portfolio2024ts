@@ -3,7 +3,7 @@ import './EducationTile.css';
 import portfolioPicture from '../../img/portfolio.png';
 
 const EducationTile = () => {
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(true);
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -28,6 +28,7 @@ const EducationTile = () => {
         </ul>
       </div>
     </div>
+  
   );
 };
 

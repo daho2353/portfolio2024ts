@@ -25,11 +25,11 @@ const HomePage = () => {
       <div className='page-background'></div>
       <img className="profile-picture" src={profilePicture} alt="profile picture"/>
       <h2> Damian Howard </h2>
-      <h3> Front-End Web Developer </h3>
+      <h3> Network Technician and Content Creator </h3>
       <div className="homepage-container">
         <div className="about-me">
           <h3> About Me </h3>
-          <p> My name is Damian Howard. I am a graduate from the University of Colorado Boulder and have a passion for creating functional and aesthetically pleasing websites. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a deep background in web development and graphic design. I hope to use my skillset to help you build your dream website. </p>
+          <p> My name is Damian and I am an aspiring network engineer who graduated from the University of Colorado Boulder. I studied for a degree in Technology, Arts and Media with a minor in Computer Science. I have a passion for understanding and repairing network systems as well as many facets of content creation. I have a deep background in web development and graphic design along with a solid foundation of troubleshooting and customer service experiences.  I am committed to leveraging my technical knowledge and creative problem-solving abilities to ensure efficient and secure network operations. </p>
         </div>
         <h4> Contact Me </h4>
         <div className="contact-information">
