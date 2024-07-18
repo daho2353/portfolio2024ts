@@ -28,9 +28,19 @@
     width: 50px;
   }
 
+  .resume-icon-container{
+    flex-direction: row;
+    gap: 10px; 
+  }
+
   .pdf-icon{
     height: 50px;
     width: 50px;
+  }
+
+  .docx-icon{
+    height: 50px;
+    width: 50px; 
   }
   .work-container ul {
     margin-top: 10px;

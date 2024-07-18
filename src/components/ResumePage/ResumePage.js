@@ -3,13 +3,17 @@ import './ResumePage.css'
 import EducationTile from '../EducationTile/EducationTile';
 import SkillsTile from '../SkillsTile/SkillsTile';
 import pdfIcon from '../../img/pdf.png';
+import docxIcon from '../../img/docx.png';
 
 const ResumePage = () => {
   return (
     <div className="resume-background">
       <div className="resume-container">
       <h2 className="resume-header"> Resume </h2>
-      <a href={require('../../img/resume.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
+      <div className="resume-icon-container">
+        <a href={require('../../img/resume.pdf')} download><img src={pdfIcon} className='pdf-icon'/></a>
+        <a href={require('../../img/resume.docx')} download><img src={docxIcon} className='docx-icon'/></a>
+      </div>
         <div className='education-skills-container'>
           <div className='education-component'>
             <h2 className="resume-header"> Education </h2>
