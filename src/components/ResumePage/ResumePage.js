@@ -45,7 +45,7 @@ const ResumePage = () => {
                 <li> Remote Troubleshooting </li>
                 <li> Helpdesk Administration </li>
                 <li> Network Support </li>
-                <li> OTDR testing, </li>
+                <li> OTDR, RFC, and Loop Testing </li>
                 <li> Root Cause Analysis </li>
               </ul> 
             </div>
