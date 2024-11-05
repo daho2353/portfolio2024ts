@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio from './Portfolio.js';
+import Portfolio from './Portfolio.tsx';
 import oldPortfolio from './portfolioimages/oldportfolio.png';
 import spaceBears from './portfolioimages/spacebear.png';
 import discord from './portfolioimages/discord.jpeg';
