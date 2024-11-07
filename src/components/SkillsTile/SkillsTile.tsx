@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './SkillsTile.css';
 
-const SkillsTile = () => {
-  const [isFlipped, setIsFlipped] = useState(false);
+const SkillsTile = (): JSX.Element => {
+  const [isFlipped, setIsFlipped] = useState<boolean>(false);
 
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped);
+  const handleFlip = (): void => {
+    setIsFlipped((prev) => !prev);
   };
 
   return (
@@ -22,7 +22,7 @@ const SkillsTile = () => {
             <li> ReactJS </li>
             <li> HTML5/CSS3/SCSS</li>
             <li> Javascript (ES6) </li>
-            <li> JQuery </li>
+            <li> TypeScript </li>
             </ul>      
         <h3 className='skill-header'> Programming Languages</h3> 
             <ul>

@@ -12,7 +12,7 @@ import misc from './portfolioimages/misc.png';
 import games from './portfolioimages/games.png';
 import './PortfolioPage.css';
 
-const PortfolioPage = () => {
+const PortfolioPage= (): JSX.Element => {
   return (
     <div className='portfolio-container'>
       <div className='portfolio'>

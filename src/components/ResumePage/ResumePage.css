@@ -62,7 +62,8 @@
   }
   
 li{
-    font-size: 110%
+    font-size: 110%;
+    margin-top: 10px;
 }
 
 .resume-container {
@@ -116,7 +117,21 @@ ul {
   padding: 0;
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.skills-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (max-width: 1220px) {
+  .skills-container {
+    display: column;
+  }
+
   .skills-component {
     flex-direction: column;
   }

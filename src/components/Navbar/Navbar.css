@@ -23,7 +23,9 @@
     color: #c1d8c0;
   }
   
-  .navbar-links a {
+  .navbar-links button {
+    background: none;
+    border: none;
     margin: 0 10px;
     color: #c1d8c0;
     text-decoration: none;
@@ -31,7 +33,7 @@
     font-size: 125%;
   }
   
-  .navbar-links a:hover {
+  .navbar-links button:hover {
     color: #505d46;
   }
   

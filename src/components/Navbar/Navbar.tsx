@@ -1,8 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = ({ setActivePage }) => {
-  const handlePageChange = (page) => {
+
+interface Props{
+  setActivePage: (page: string) => void;
+}
+
+const Navbar = ({ setActivePage }: Props): JSX.Element => {
+  const handlePageChange = (page: string): void => {
     setActivePage(page);
   };
 
@@ -12,9 +17,9 @@ const Navbar = ({ setActivePage }) => {
         <span className="navbar-name"> Damian Howard</span>
       </div>
       <div className="navbar-links">
-        <a onClick={() => handlePageChange('home')}>Home</a>
-        <a onClick={() => handlePageChange('resume')}>Resume</a>
-        <a onClick={() => handlePageChange('portfolio')}>Portfolio</a>
+        <button onClick={() => handlePageChange('home')}>Home</button>
+        <button onClick={() => handlePageChange('resume')}>Resume</button>
+        <button onClick={() => handlePageChange('portfolio')}>Portfolio</button>
       </div>
     </nav>
   );

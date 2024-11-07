@@ -5,10 +5,10 @@ import HomePage from './components/HomePage/HomePage';
 import ResumePage from './components/ResumePage/ResumePage';
 import PortfolioPage from './components/PortfolioPage/PortfolioPage';
 
-function App() {
-  const [activePage, setActivePage] = useState('home');
+function App(): JSX.Element {
+  const [activePage, setActivePage] = useState<string>('home');
 
-  const renderPage = () => {
+  const renderPage = (): JSX.Element => {
     if (activePage === 'home') {
       return <HomePage />;
     } else if (activePage === 'resume') {
@@ -16,6 +16,8 @@ function App() {
     } else if (activePage === 'portfolio') {
       return <PortfolioPage />;
     }
+
+    return <></>;
   };
 
   return (

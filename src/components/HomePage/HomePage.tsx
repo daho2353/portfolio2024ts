@@ -9,15 +9,15 @@ import backgroundImage from '../../img/background.png';
 import linkedInIconHoveredSrc from'../../img/linkedindark.png';
 import './HomePage.css';
 
-const HomePage = () => {
-  const [gitIconHovered, setGitIconHovered] = useState(false);
-  const [linkedInIconHovered, setLinkedInIconHovered] = useState(false);
+const HomePage = (): JSX.Element => {
+  const [gitIconHovered, setGitIconHovered] = useState<boolean>(false);
+  const [linkedInIconHovered, setLinkedInIconHovered] = useState<boolean>(false);
 
-  const handleGitIconHover = () => {
+  const handleGitIconHover = ():void => {
     setGitIconHovered(!gitIconHovered);
   };
 
-  const handleLinkedInIconHover = () => {
+  const handleLinkedInIconHover = ():void => {
     setLinkedInIconHovered(!linkedInIconHovered);
   };
   return (
@@ -44,10 +44,10 @@ const HomePage = () => {
           </div>
           <div className="other-container">
             <div className="icon-container">
-              <a href="https://github.com/daho2353" target="_blank">
+              <a href="https://github.com/daho2353" target="_blank" rel="noopener noreferrer">
               <img className="git-icon" src={gitIconHovered ? gitIconHoveredSrc : gitIcon} alt="git icon" onMouseEnter={handleGitIconHover} onMouseLeave={handleGitIconHover}/>
               </a>
-              <a href="https://www.linkedin.com/in/damian-howard-801906174/" target="_blank">
+              <a href="https://www.linkedin.com/in/damian-howard-801906174/" target="_blank" rel="noopener noreferrer">
               <img className="linked-in-icon" src={linkedInIconHovered ? linkedInIconHoveredSrc : linkedInIcon} alt="linked in icon" onMouseEnter={handleLinkedInIconHover} onMouseLeave={handleLinkedInIconHover}/>
               </a>
             </div>

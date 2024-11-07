@@ -1,11 +1,11 @@
 import React from 'react';
 import './ResumePage.css'
 import EducationTile from '../EducationTile/EducationTile';
-import SkillsTile from '../SkillsTile/SkillsTile';
 import pdfIcon from '../../img/pdf.png';
 import docxIcon from '../../img/docx.png';
+import SkillsTile from '../SkillsTile/SkillsTile';
 
-const ResumePage = () => {
+const ResumePage = (): JSX.Element => {
   return (
     <div className="resume-background">
       <div className="resume-container">
@@ -18,17 +18,19 @@ const ResumePage = () => {
           <div className='education-component'>
             <h2 className="resume-header"> Education </h2>
             <EducationTile />
+            <SkillsTile/>
           </div>
         </div>
+        {/* 
         <h2 className="resume-header" id="skills-header"> Skills </h2>
         <div className='skills-component'> 
             <div className="skills-column-1">
               <ul>
-                <li> Cisco </li>
-                <li> Juniper </li>
-                <li> Fortinet </li>
-                <li> Ciena </li>
+                <li> Cisco, Ciena, Juniper </li>
                 <li> Nokia </li>
+                <li> Fortinet </li>
+                <li> ReactJS, TypeScript </li>
+                <li> Python, C++, C#, lua, SQL </li>
               </ul> 
             </div>
             <div className="skills-column-2">
@@ -50,6 +52,7 @@ const ResumePage = () => {
               </ul> 
             </div>
         </div>
+        */}
         <div className="experience-container">
           <div className="work-container">
             <h2 className='resume-header'> Work Experience </h2>

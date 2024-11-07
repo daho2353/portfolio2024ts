@@ -1,7 +1,15 @@
 import React from 'react';
 import './PortfolioPage.css';
 
-const Portfolio = ({ header, imageName, imagePlacement, description, link }) => {
+interface Props {
+  header: string,
+  imageName: string,
+  imagePlacement: string,
+  description: string,
+  link: string
+}
+
+const Portfolio = ({ header, imageName, imagePlacement, description, link }: Props): JSX.Element => {
   return (
     <div className="portfolio">
       <div className="portfolio-content">

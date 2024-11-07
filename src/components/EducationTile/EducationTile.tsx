@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import './EducationTile.css';
 import portfolioPicture from '../../img/portfolio.png';
 
-const EducationTile = () => {
-  const [isFlipped, setIsFlipped] = useState(true);
+const EducationTile = (): JSX.Element => { //adding these to compenents is useful but not necessary. If the compenent is going to have children the React.FC should be added. 
+  const [isFlipped, setIsFlipped] = useState<boolean>(true);
 
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped);
+  const handleFlip = (event: React.MouseEvent<HTMLDivElement>): void => {
+    event.preventDefault();
+    setIsFlipped((prev) => !prev);
   };
 
   return (
@@ -23,7 +24,7 @@ const EducationTile = () => {
         <img className="portfolio-picture" src={portfolioPicture} alt="portfolio picture"/>
         <p className="education-description"> Bachelors of Science </p>
         <ul>
-            <li><a href="https://www.colorado.edu/atlas/about/undergraduate-major-creative-technology-and-design" className="tam-link" target="_blank">Major: Creative Technology and Design </a></li>
+            <li><a href="https://www.colorado.edu/atlas/about/undergraduate-major-creative-technology-and-design" className="tam-link" target="_blank" rel="noopener noreferrer">Major: Creative Technology and Design </a></li>
             <li> Minor: Computer Science </li>
         </ul>
       </div>
