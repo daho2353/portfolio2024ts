@@ -35,7 +35,7 @@ const HomePage = (): JSX.Element => {
         <div className="contact-information">
           <div className="phone-container">
             <img className="phone-icon" src ={phoneIcon} alt="phone icon"/>
-            <p> 720-775-5103 </p>
+            <p> 971-456-2595 </p>
           </div>
           <div className="email-container">
             <img className="email-icon" src ={emailIcon} alt="email icon"/>
